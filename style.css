@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
+.right-content,
+.dashboard{
+    border: solid 5px black;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-rows: 50px 200px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-content{
+    display: grid;
+    grid-template-rows: 15vh 80vh;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.right-side-content{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    align-content: space-around;
 }
